@@ -1,23 +1,26 @@
-# Notícias
+# Sistema de Notícias — PHP
 
-Este é um projeto simples de gestão de notícias feito em PHP. Ele permite que você crie, filtre, e pesquise artigos de notícias por categoria, além de adicionar novas categorias.
+Projeto acadêmico de gerenciamento de notícias desenvolvido em PHP.
 
 ## Funcionalidades
 
-- **Listar Artigos**: Exibe uma lista de artigos com título, conteúdo, categoria e data de publicação.
-- **Filtrar Artigos por Categoria**: Filtra os artigos com base em suas categorias.
-- **Pesquisar Artigos**: Permite pesquisar artigos pelo título ou conteúdo.
-- **Adicionar Categorias**: Adiciona novas categorias ao sistema.
-- **Adicionar Artigos**: Adiciona novos artigos vinculados a uma categoria específica.
+- Listagem de artigos
+- Cadastro de artigos
+- Cadastro de categorias
+- Filtro por categoria
+- Pesquisa por título ou conteúdo
+- Área administrativa simples
 
-## Estrutura de Arquivos
+## Tecnologias
 
-- `admin.php`: Gerencia o lado administrativo do projeto.
-- `data.php`: Contém os dados utilizados no projeto, como artigos e categorias.
-- `filter.php`: Filtra os artigos com base na categoria.
-- `functions.php`: Contém as principais funções usadas para gerenciar artigos e categorias.
-- `list.php`: Exibe a lista de artigos.
-- `search.php`: Permite a pesquisa de artigos.
- 
+- PHP
+- HTML
+- CSS
 
-##
+## Organização
+
+O código da aplicação está na pasta `noticias/`, com arquivos responsáveis por administração, dados, filtros, pesquisa e listagem.
+
+## Contexto
+
+Projeto criado para praticar programação web com PHP, organização de funções e manipulação de conteúdo dinâmico.
